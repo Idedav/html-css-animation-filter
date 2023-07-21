@@ -46,3 +46,9 @@
 .ex-5-square:hover{
     scale: 2;
 }
+
+/* ESERCIZIO 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
