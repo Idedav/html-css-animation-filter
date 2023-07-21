@@ -85,3 +85,30 @@
     scale: 1.5;
 }
 
+/* ESERCIZIO 10 */
+
+.ex-10-icon{
+    animation: move 1.5s linear infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(-90deg);
+    }
+
+    50%{
+        transform: rotate(-180deg);
+    }
+
+    75%{
+        transform: rotate(-270deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
